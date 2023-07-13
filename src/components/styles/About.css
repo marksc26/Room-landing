@@ -1,0 +1,100 @@
+.darkImg {
+    width: 32%;
+    display: flex;
+
+}
+
+.darkImg img {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lightImg {
+    width: 32%;
+    display: flex;
+
+}
+
+.darkImg img {
+    width: 100%;
+}
+
+.aboutInfo {
+    font-family: 'League Spartan', sans-serif;
+    width: 36%;
+}
+
+@media(min-width: 1900px) {
+    .aboutInfo {
+        padding: 100px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .aboutInfo {
+        padding: 10px 15px;
+    }
+
+    .aboutInfo p {
+        font-size: 14px;
+    }
+
+
+}
+
+@media(max-width:900px) {
+    .aboutInfo {
+        padding: 5px 10px;
+    }
+
+    .aboutInfo p {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 800px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .darkImg {
+        width: 100%;
+
+    }
+
+    .darkImg img {
+        width: 100%;
+    }
+
+    .aboutInfo {
+        width: 100%;
+        padding: 50px 100px;
+    }
+
+    .aboutInfo p {
+        font-size: 15px;
+    }
+
+    .lightImg {
+        width: 100%;
+    }
+
+    .lightImg img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px) {
+    .aboutInfo {
+        padding: 20px 40px;
+    }
+}
